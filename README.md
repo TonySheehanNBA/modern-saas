@@ -1,26 +1,43 @@
-# Post Generator MCP Server
+# Modern SaaS
 
-A Model Context Protocol (MCP) server for generating posts.
+A modern, multi-tenant SaaS starter application built with Next.js 15, Supabase, and TypeScript. Features organization-based multi-tenancy, OAuth authentication, and a clean, responsive UI.
 
-## Setup
+## ✨ Features
 
-1. Clone this repository
-2. Install dependencies
-3. Configure the MCP server
+- **🏢 Multi-tenant Architecture** - Organization-based workspace isolation
+- **🔐 OAuth Authentication** - GitHub OAuth integration with Supabase Auth  
+- **🎨 Modern UI** - Built with Tailwind CSS and shadcn/ui components
+- **🌙 Dark Mode** - System-aware theme switching
+- **📱 Responsive Design** - Mobile-first responsive layout
+- **⚡ Performance** - Next.js 15 with Turbopack for fast development
+- **🔒 Row Level Security** - Supabase RLS for secure data access
+- **🚀 TypeScript** - Full type safety throughout the application
 
-## Usage
+## 🚀 Quick Start
 
-This MCP server provides functionality for generating posts with various templates and formats.
+```bash
+git clone https://github.com/TonySheehanNBA/modern-saas.git
+cd modern-saas
+npm install
+npm run dev
+```
 
-## Configuration
+Visit [http://localhost:3000](http://localhost:3000) to get started.
 
-Add this server to your MCP configuration file.
+## 📚 Documentation
 
-## Development
+- [Setup Guide](modern-saas/docs/SETUP.md) - Complete setup instructions
+- [API Documentation](modern-saas/docs/API.md) - API reference and database schema
+- [MCP Server](modern-saas/docs/MCP_SERVER.md) - GitHub MCP server documentation
 
-- Built with Node.js/Python (specify your preferred language)
-- Follows MCP specification standards
+## 🛠️ Tech Stack
 
-## License
+- **Framework**: Next.js 15 (App Router)
+- **Database**: Supabase (PostgreSQL) 
+- **Authentication**: Supabase Auth with OAuth
+- **Styling**: Tailwind CSS v4
+- **Language**: TypeScript
 
-MIT License
+## 📄 License
+
+MIT License - see [LICENSE](modern-saas/LICENSE) file for details.
